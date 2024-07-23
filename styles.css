@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#1c6987;
+    color: #4E636B;
+    text-align: center;
+    padding: 1em 0;
+}
+nav {
+    text-align: center;
+    margin: 10px 0;
+    background-color: #29134d;
+    color: #FFFCAA;
+    text-align: center;
+    padding: 1% 1% 100% 1%;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #FFFCAA;
+}
+main {
+    padding: 20px;
+    background-color: #b2ac03;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 0% 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.basics{
+    background-color: #ae2525;
+    color: #f0f0f0;
+}
+.container {
+    display: flex; /* Usa flexbox para alinear los elementos */
+}
+
+.box {
+    flex: 1; /* Cada div ocupará el mismo espacio */
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
